@@ -1,0 +1,279 @@
+
+.header {
+	height: 200px;
+	background-color: #56527d;
+	width: 1300px;
+	margin-left: 300px;
+	margin-top: -50px;
+}
+
+.buttonshead {
+	background-color: red;
+	width: 1300px;
+	margin-left: 300px;
+	height: 100px;
+	font-family: arial;
+	display: flex;
+}
+.buttonshead1 {
+	background-color: #56527d;
+	width: 500px;
+	height: 100px;
+	text-align: center;
+	font-family: arial;
+
+}
+.buttonshead2 {
+	background-color: #56527d;
+	width: 800px;
+	height: 100px;
+}
+
+.button1{
+	background-color: #8fa1c9;
+	width: 200px;
+	height: 50px;
+	font-family: arial;
+	font-size: 20px;
+	margin-top: 20px;
+	border-radius: 15px;
+	margin-left: 140px;
+}
+
+
+.header1 {
+	height: 100px;
+	background-color: #8fa1c9;
+	width: 1300px;
+	display: flex;
+	font-family: arial;
+
+}
+
+.bigdiv {
+	width: 1300px;
+	background-color: red;
+	margin-top: 20px;
+	height: 320px;
+	margin-left: 300px;
+	display: flex;
+	font-family: arial;
+}
+
+
+
+.imgch {
+	width: 600px;
+	height: 300px;
+	background-color: yellow;
+
+
+}
+
+.char {
+	width: 800px;
+	height: 320px;
+	background-color: #8fa1c9;
+	font-size: 20px;
+}
+
+.seasons {
+	width: 1300px;
+	height: 300px;
+	background-color: purple; 
+	margin-left: 300px;
+	display: flex;
+}
+
+.seasons1 {
+	width: 650px;
+	height: 300px;
+	background-color: blue; 
+}
+.seasons2 {
+	width: 650px;
+	height: 300px;
+	background-color: yellow; 
+}
+
+.actimg {
+	width: 1300px;
+	height: 500px;
+	margin-left: 300px;
+	background-color: red;
+}
+.act {
+	width: 1300px;
+	height: 1000px;
+	background-color: #8fa1c9; 
+	margin-left: 300px;
+}
+
+.act0 {
+	width: 1300px;
+	height: 100px;
+	background-color: #56527d;
+	font-family: arial;
+	text-align: center;
+	margin-left: 300px;
+	margin-top: 40px;
+
+}
+.act1 {
+	width: 1300px;
+	height: 300px;
+	display: flex;
+	
+}
+
+.act10{
+	width: 1300px;
+	height: 100px;
+	display: flex;
+	 border-top: 5px solid black;
+	font-family: arial;
+	text-align: center;
+}
+.act102{
+	width: 1300px;
+	height: 100px;
+	display: flex;
+	font-family: arial;
+	text-align: center;
+	 border-bottom: 5px solid black;
+}
+.act101{
+	width: 325px;
+	height: 100px;
+	
+}
+
+.act2 {
+	width: 1300px;
+	height: 300px;
+	display: flex;
+	background-color: #8fa1c9;
+}
+
+.num1 {
+	width: 250px;
+	height: 250px;
+	background-color: blue;
+	border-radius: 300px;
+	margin-left: 50px;
+}
+.num2 {
+	width: 250px;
+	height: 250px;
+	background-color: red;
+	border-radius: 300px;
+	margin-left: 50px;
+}
+.num3 {
+	width: 250px;
+	height: 250px;
+	background-color: blue;
+	border-radius: 300px;
+	margin-left: 50px;
+}
+.num4 {
+	width: 250px;
+	height: 250px;
+	background-color: red;
+	border-radius: 300px;
+	margin-left: 50px;
+}
+
+.div1 {
+	width: 1300px;
+	height: 600px;
+	background-color: pink;
+	display: flex;
+	margin-left: 300px;
+	margin-top: 20px;
+}
+
+.news {
+	width: 650px;
+	height: 600px;
+	background-color: #8fa1c9;
+}
+
+.headernews {
+	width: 650px;
+	height: 100px;
+	background-color: #56527d;
+	font-family: arial;
+	text-align: center;
+}
+
+.realnews {
+	width: 650px;
+	height: 150px;
+	background-color: #7b789c;
+	margin-top: 10px;
+	display: flex;
+	font-family: arial;
+}
+
+.rn {
+	width: 500px; height: 150px; background-color: #7b789c
+}
+/*тексты*/
+	@font-face {
+    font-family: H1; /* Гарнитура шрифта */
+    src: url(ac.otf); /* Путь к файлу со шрифтом */
+   }
+
+/*ссылки*/
+.links1 {
+  color: black;
+  font-size: 20PX;
+  margin-left: 40px;
+  padding-left: 50px;
+  margin-top: 30px;
+}
+
+/*картинки*/
+.img1 {
+	width: 600px;
+	height: 320px;
+}
+
+.video1 {
+	width: 650px;
+	height: 300px;
+}
+
+.imgnum1{
+	width: 250px;
+	height: 250px;
+	border-radius: 300px;
+}
+
+	.box {
+		background-color: 
+#7b789c;
+		width: 200px;
+		height: 50px;
+		margin-left: 100px;
+		transition: 1s;
+		margin-top: 30px;
+		color: black;
+
+	}
+
+	.box:hover {
+		background-color: 
+#ffff;
+		width: 300px;
+		
+	}
+
+  body {
+    margin: 0; 
+   }
+
+   head {
+   	margin:0;
+   }
